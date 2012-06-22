@@ -7,6 +7,7 @@ module Initforthe
   module Cookies
     mattr_accessor :site_name
     mattr_accessor :policy_url
+    mattr_accessor :button_classes
 
     def self.setup
       yield self

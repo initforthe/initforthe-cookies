@@ -1,6 +1,6 @@
 <div id="cookie_policy">
   <%= form_for :cookie_policy, url: initforthe_cookies.accept_cookie_policy_path, remote: true do |f| -%>
-    <%= f.submit 'Accept cookie policy' -%>
+    <%= f.submit 'Accept cookie policy', class: Initforthe::Cookies.button_classes || '' -%>
   <%- end -%>
   <p>
     <%= Initforthe::Cookies.site_name %> uses cookies. Some may have been set already.
