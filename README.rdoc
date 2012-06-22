@@ -1,6 +1,6 @@
 = initforthe-cookies
 
-Opt-out cookie policy notice helpers for rails. Opt-out is implemented by setting a cookie. Irony?
+Opt-out cookie policy notice engine for rails. Opt-out is implemented by setting a cookie. Irony?
 
 = License
 
