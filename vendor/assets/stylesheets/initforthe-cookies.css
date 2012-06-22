@@ -1,0 +1,16 @@
+#cookie_policy {
+  background: #000;
+  background: rgba(0,0,0,0.8);
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
+  color: white;
+}
+
+#cookie_policy form {
+  float: right;
+  margin-left: 20px;
+}
+
+#cookie_policy a { color: white; }
+
