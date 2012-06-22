@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Rob Holland"]
   s.email       = ["rob@initforthe.com"]
   s.homepage    = "http://github.com/initforthe/initforthe-cookies"
-  s.summary     = "Opt-out cookie policy notice helpers for rails."
-  s.description = "Opt-out cookie policy notice helpers for rails."
+  s.summary     = "Opt-out cookie policy notice engine for rails."
+  s.description = "Opt-out cookie policy notice engine for rails."
 
   s.files = Dir["{app,config,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
