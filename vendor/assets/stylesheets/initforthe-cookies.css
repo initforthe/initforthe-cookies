@@ -3,8 +3,10 @@
   background: rgba(0,0,0,0.8);
   position: fixed;
   bottom: 0;
-  padding: 20px;
+  padding: 20px 2%;
   color: white;
+  width: 96%;
+  z-index: 9999;
 }
 
 #cookie_policy form {
