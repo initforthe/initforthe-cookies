@@ -2,6 +2,12 @@
 
 Opt-out cookie policy notice engine for rails. Opt-out is implemented by setting a cookie. Irony?
 
+= Usage
+* Add 'initforthe-cookies' to gemfile && bundle install
+* Add 'initforthe-cookies' asset loading to css and js manifests
+* Mount the engine at desired location (mount Initforthe::Cookies::Engine, at: '/cookie_policy' in config/routes.rb)
+* Call from your layout by <%= cookie_policy %>
+
 = License
 
 MIT-LICENSE.
