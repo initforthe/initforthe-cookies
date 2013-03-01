@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Opt-out cookie policy notice engine for rails."
   s.description = "Opt-out cookie policy notice engine for rails."
 
-  s.files = Dir["{app,config,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", ">= 3.1.0"
 end
