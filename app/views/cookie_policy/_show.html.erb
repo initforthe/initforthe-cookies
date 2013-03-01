@@ -1,11 +1,11 @@
 <div id="cookie_policy">
   <%= form_for :cookie_policy, url: initforthe_cookies.accept_cookie_policy_path, remote: true do |f| -%>
-    <%= f.submit 'Accept cookie policy', class: Initforthe::Cookies.button_classes || '' -%>
+    <%= f.submit 'Hide this notice', class: Initforthe::Cookies.button_classes || '' -%>
   <%- end -%>
   <p>
     <%= Initforthe::Cookies.site_name %> uses cookies. Some may have been set already.
     <%= link_to 'Read about cookies used on this site', Initforthe::Cookies.policy_url %>.
-    Please click the button to accept our cookies.
+    Please click the button to hide this notice.
     By continuing your use of the site, you agree that you're happy to accept the cookies we use.
   </p>
 </div>
