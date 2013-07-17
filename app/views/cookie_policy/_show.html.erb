@@ -1,10 +1,10 @@
 <div id="cookie_policy">
-  <%= form_for :cookie_policy, url: initforthe_cookies.accept_cookie_policy_path, remote: true do |f| -%>
-    <%= f.submit t(:hide_button), class: Initforthe::Cookies.button_classes || '' -%>
-  <%- end -%>
   <p>
     <%= t :first_phraze, site: Initforthe::Cookies.site_name %> 
     <%= link_to t(:link_to_regulations), Initforthe::Cookies.policy_url %>.
     <%= t :second_phraze %>
+    <%= form_for :cookie_policy, url: initforthe_cookies.accept_cookie_policy_path, remote: true do |f| -%>
+      <%= f.submit t(:hide_button), class: Initforthe::Cookies.button_classes || '' -%>
+    <% end %>
   </p>
 </div>
