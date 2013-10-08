@@ -1,0 +1,5 @@
+en:
+  hide_button: "Hide this notice"
+  first_phrase: "%{site} uses cookies. Some may have been set already."
+  link_to_regulations: 'Read about cookies used on this site'
+  second_phrase: "Please click the button to hide this notice. By continuing your use of the site, you agree that you're happy to accept the cookies we use."
