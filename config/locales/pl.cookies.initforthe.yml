@@ -1,0 +1,5 @@
+pl:
+  hide_button: "Ukryj"
+  first_phrase: "Serwis %{site} używa plików cookie. Niektóre z nich już zostały ustawione."
+  link_to_regulations: 'Przeczytaj o naszej polityce cookie.'
+  second_phrase: "Możesz kliknąć na przycisk, aby ukryć tą wiadomość . Ale pamiętaj, dalsze korzystanie ze strony onacza akceptacje naszej polityki plików cookie."
